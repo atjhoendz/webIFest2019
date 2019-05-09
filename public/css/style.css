@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Regular.woff2') format('woff2'),
+        url('../font/Stellar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Bold.woff2') format('woff2'),
+        url('../font/Stellar-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans.woff2') format('woff2'),
+        url('../font/MADEEvolveSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blanka';
+    src: url('../font/Blanka-Regular.woff2') format('woff2'),
+        url('../font/Blanka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Bold.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Medium.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Thin.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Thin.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Medium.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Bold.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Light.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Light.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Light.woff2') format('woff2'),
+        url('../font/Stellar-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Medium.woff2') format('woff2'),
+        url('../font/Stellar-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../font/Ailerons-Regular.woff2') format('woff2'),
+        url('../font/Ailerons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Stellar';
+}
+
+/* navbar */
+
+.navbar-fixed{
+    position: absolute;
+    z-index: 99999999;
+    margin-left: 2%;
+}
+
+.logo_nav{
+    max-height: 50px;
+    padding-top: 10px;
+}
+
+.row{
+    margin-bottom: 0px;
+}
+
+h1{
+    margin: 0;
+}
+
+.btnMain{
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Stellar';
+}
+
+.btnMain:hover{
+    background-color: transparent !important;
+    border: 3px solid #03a9f4;
+}
+
+.btnMain_border{
+    background: transparent !important;
+    border-radius: 20px;
+    border: 3px solid #ff00e2;
+    font-size: 15px;
+    font-family: 'Stellar';
+}
+
+.btnMain_border:hover{
+    background-color: #ff00e2 !important;
+}
+
+#header-section{
+    color: white;
+    min-height: 685px;
+    background: url('../img/header.png') no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    margin-top: 10%;
+    text-align: center;
+    /* color: #ffcc02; */
+    font-family: 'Blanka';
+    font-size: 50pt;
+    box-shadow: 2px;
+}
+
+.text_shadow{
+    /* -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75); */
+    text-shadow: 3px 4px 10px black;
+}
+
+.head-1{
+    font-family: 'Blanka';
+}
+
+.head-2{
+    font-family:'MADE Evolve Sans EVO';
+}
+
+.imglogo{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+#about-section,
+#talkshow-section,
+#competition-section,
+#semnas-section,
+#timeline-section{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#about-section{
+    padding-top: 10%;
+    min-height: 685px;
+    background-size: cover;
+    background: url('../img/about.png') no-repeat;
+}
+
+.logoAbout{
+    height: 250px;
+    width: 250px;
+}
+
+.logoBE{
+    height: 200px;
+    width: 200px;
+}
+
+#talkshow-section{
+    padding-top: 5%;
+    min-height: 685px;
+    background-size: cover;
+    background: url('../img/talkshow.png');
+}
+
+.talkshow_content{
+    text-align: center;
+}
+
+#competition-section{
+    min-height: 685px;
+    background-size: cover;
+    background: url('../img/competition.png');
+    padding-top: 10%;
+}
+
+#semnas-section{
+    min-height: 685px;
+    background-size: cover;
+    background: url('../img/semnas.png');
+}
+
+#timeline-section{
+    padding-top: 10%;
+    min-height: 685px;
+    background: url('../img/timeline.png');
+    background-size: cover;
+}
+
+#contact-section{
+    min-height: 685px;
+    background: url('../img/contact.png');
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px){
+    body#b_ifest19{
+        background-image: url('../img/bg_mobile.png');
+        background-size: cover;
+    }
+
+    #about-section,
+    #talkshow-section,
+    #competition-section,
+    #semnas-section,
+    #timeline-section{
+        background: transparent;
+        background-size: cover;
+        /* padding-top: 5%; */
+    }
+}
