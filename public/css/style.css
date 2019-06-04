@@ -131,6 +131,8 @@ body{
     padding: 0;
     color: white;
     font-family: 'Stellar';
+    /* background-color: rgb(8, 3, 63); */
+    background-color: #06003e;
 }
 
 /* navbar */
@@ -138,13 +140,33 @@ body{
 .navbar-fixed{
     position: absolute;
     z-index: 99999999;
-    margin-left: 2%;
 }
 
 .logo_nav{
     max-height: 50px;
     padding-top: 10px;
 }
+
+.bg_navbar{
+    background-color: rgba(8, 3, 63, 0.7);
+    transition: 1500ms;
+}
+
+#navbar.transparent{
+    transition: 1500ms;
+}
+
+#navbar ul a:hover{
+    color:yellow;
+    font-weight: bold;
+}
+
+nav ul li.active > a{
+    color:yellow !important;
+    font-weight: bold;
+}
+
+/* end of navbar */
 
 .row{
     margin-bottom: 0px;
@@ -180,7 +202,7 @@ h1{
 #header-section{
     color: white;
     min-height: 685px;
-    background: url('../img/header.png') no-repeat;
+    background: url('../img/header.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -213,22 +235,37 @@ h1{
     width: 200px;
 }
 
+.logoFooter{
+    max-height: 60px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    /* text-align: center; */
+    font-size: 15pt;
+}
+
 
 
 #about-section,
 #talkshow-section,
 #competition-section,
 #semnas-section,
-#timeline-section{
+#timeline-section,
+#sponsormedpart-section{
     padding-top: 5%;
     text-align: center;
+    background-size: cover !important;
+    font-size:15pt;
 }
 
 #about-section{
-    padding-top: 10%;
+    padding-top: 5%;
     min-height: 685px;
-    background-size: cover;
-    background: url('../img/about.png') no-repeat;
+    background: url('../img/about.jpg') no-repeat center;
+    text-align: justify;
 }
 
 .logoAbout{
@@ -244,8 +281,7 @@ h1{
 #talkshow-section{
     padding-top: 5%;
     min-height: 685px;
-    background-size: cover;
-    background: url('../img/talkshow.png');
+    background: url('../img/talkshow.jpg') no-repeat center;
 }
 
 .talkshow_content{
@@ -254,43 +290,62 @@ h1{
 
 #competition-section{
     min-height: 685px;
-    background-size: cover;
-    background: url('../img/competition.png');
+    background: url('../img/competition.jpg') no-repeat center;
     padding-top: 10%;
 }
 
 #semnas-section{
+    padding-top: 9%;
     min-height: 685px;
-    background-size: cover;
-    background: url('../img/semnas.png');
+    background: url('../img/semnas.jpg') no-repeat center;
 }
 
 #timeline-section{
     padding-top: 10%;
     min-height: 685px;
-    background: url('../img/timeline.png');
-    background-size: cover;
+    background: url('../img/timeline.jpg') no-repeat center;
+}
+
+#sponsormedpart-section{
+    min-height: 685px;
+    background: url('../img/sponsormedpart.jpg') no-repeat center;
 }
 
 #contact-section{
-    min-height: 685px;
-    background: url('../img/contact.png');
-    background-size: cover;
+    text-align: justify;
+    height: 50vh !important;
+    position: relative;
+    background-color: #06003e;
+}
+
+.addPadding_top{
+    padding-top: 10% !important;
+    transition: 0;
 }
 
 @media screen and (max-width: 768px){
-    body#b_ifest19{
-        background-image: url('../img/bg_mobile.png');
-        background-size: cover;
-    }
-
+    #header-section,
     #about-section,
     #talkshow-section,
     #competition-section,
     #semnas-section,
-    #timeline-section{
+    #timeline-section,
+    #sponsormedpart-section{
+        font-size: 13px;
         background: transparent;
         background-size: cover;
-        /* padding-top: 5%; */
+    }
+    #contact-section{
+        height: 70vh !important;
+    }
+    body#b_ifest19{
+        background: url('../img/bg_mobile.jpg') no-repeat;
+        /* background: url('../img/bg_mobile.png'); */
+        background-color: #06003e;
+    }
+
+    .imglogo{
+        height: 100px;
+        width: 100px;
     }
 }
