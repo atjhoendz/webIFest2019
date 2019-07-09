@@ -92,8 +92,8 @@
                             <img class="responsive-img z-depth-3" src="{{url('img/img_talk.jpg')}}" alt="img_talks">
                         </div>
                         <div class="col m6 blue darken-4 descRangkaian">
-                            <p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consectetur quibusdam maxime molestias excepturi accusantium itaque dignissimos, id harum ipsum? Nulla rerum, praesentium corporis sed eos assumenda rem eligendi totam?</p>
-                            <p class="yellow-text">8 September 2019</p>
+                            <p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;Talkshow merupakan event pembuka rangkaian IFest 2019 dengan mengundang narasumber yang dapat memberikan wawasan baru serta inspirasi mengenai isu isu teknologi terkini.</p>
+                            <p class="yellow-text">Minggu, 15 September 2019</p>
                             <p>Bandung Creative Hub</p>
                         </div>
                         <a href="#" class="waves-effect waves-light btnRSVP btn">RSVP NOW <i class="material-icons">mail</i></a>
@@ -163,10 +163,11 @@
             <div class="container">
                 <h1>Seminar Nasional</h1>
                 <div class="row">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium odio minus consequuntur
-                        perferendis. Rerum sit fuga natus sunt necessitatibus illum sapiente doloremque ipsa
-                        exercitationem cumque minus, quod vero cum eaque!</p>
+                    <p>Seminar Nasional Informatika (Semnas) adalah bagian dari rangkaian IFest yang setiap tahunnya mengundang pemateri yang telah berpengalaman di bidang yang relevan dengan tema yang dibawa Semnas di tingkat nasional. Pada tahun ini, Semnas membawa 'The Role of Big Data Analytics in Industry Revolution' sebagai tema mengingat hal tersebut sedang marak dibicarakan. Selain seminar, ada pula kegiatan yang melibatkan masyarakat untuk mempublikasikan hasil penelitiannya. Semnas bertujuan untuk meningkatkan wawasan masyarakat umum di bidang Informatika yang sesuai dengan perkembangan zaman.</p>
+                    <p class="yellow-text">Sabtu, 12 Oktober 2019</p>
+                    <p>Gedung Graha Sanusi Unpad Dipatiukur, Bandung</p>
                 </div>
+                <a href="#" class="waves-effect waves-light btnRSVP btn">GET TICKETS NOW <i class="material-icons">mail</i></a>
             </div>
         </div>
 
@@ -178,10 +179,11 @@
             <div class="container">
                 <h1>Expo IT</h1>
                 <div class="row">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium odio minus consequuntur
-                        perferendis. Rerum sit fuga natus sunt necessitatibus illum sapiente doloremque ipsa
-                        exercitationem cumque minus, quod vero cum eaque!</p>
+                    <p>Expo IFest 2019 Adalah salah satu rangkaian IFest 2019 yang menghadirkan puluhan startup dari berbagai macam industri kreatif, mahasiswa, komunitas, dan entrepreneur yang akan memperkenalkan produk, karya, dan inovasi terbarunya dalam bidang teknologi. Di tahun yang kedua dari Expo IFest ini selain bisa berinteraksi secara langsung dengan para pengisi Expo, para peserta dapat mencoba bermacam permainan atau games di playground yang disediakan oleh pengisi Expo.</p>
+                    <p class="yellow-text">Sabtu, 12 Oktober 2019</p>
+                    <p>Gedung Graha Sanusi Unpad Dipatiukur, Bandung</p>
                 </div>
+                <a href="#" class="waves-effect waves-light btnRSVP btn">RSVP NOW <i class="material-icons">mail</i></a>
             </div>
         </div>
 
